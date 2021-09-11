@@ -11,7 +11,7 @@ import s from "./App.module.css";
 import useLocalStorage from "./hooks/useLocalStorage";
 
 const App = () => {
-  const [contacts, setContacts] = useLocalStorage("email", "");
+  const [contacts, setContacts] = useLocalStorage("contacts", "");
   const [filter, setFilter] = useState("");
 
   const addContact = ({ name, number }) => {
