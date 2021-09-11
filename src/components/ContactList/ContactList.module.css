@@ -1,0 +1,17 @@
+.list {
+  padding: 20px 0;
+
+  width: 45%;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.item {
+  font-size: 18px;
+  color: honeydew;
+  list-style: none;
+  margin-bottom: 5px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
